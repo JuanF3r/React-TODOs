@@ -36,7 +36,8 @@ function App() {
   };
 
   const deleteTodo =(text) => {
-   /*  const newTodos = todos.filter(
+    // otra forma de eliminar un TODO
+    /*  const newTodos = todos.filter(
       (todo) => todo.text != text
     ); */
     const newTodos = [...todos]
